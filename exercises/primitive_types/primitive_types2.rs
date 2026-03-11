@@ -5,10 +5,13 @@
 //
 // Execute `rustlings hint primitive_types2` or use the `hint` watch subcommand
 // for a hint.
+// I AM NOT DONE
 
+// I AM NOT DONE
 
 fn main() {
     // Characters (`char`)
+// I AM NOT DONE
 
     // Note the _single_ quotes, these are different from the double quotes
     // you've been seeing around.
@@ -20,6 +23,7 @@ fn main() {
     } else {
         println!("Neither alphabetic nor numeric!");
     }
+// I AM NOT DONE
 
     let your_character = '@';// Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character

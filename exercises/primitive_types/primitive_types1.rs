@@ -5,15 +5,19 @@
 //
 // Execute `rustlings hint primitive_types1` or use the `hint` watch subcommand
 // for a hint.
+// I AM NOT DONE
 
+// I AM NOT DONE
 
 fn main() {
     // Booleans (`bool`)
+// I AM NOT DONE
 
     let is_morning = true;
     if is_morning {
         println!("Good morning!");
     }
+// I AM NOT DONE
 
     let is_evening = false;// Finish the rest of this line like the example! Or make it be false!
     if is_evening {

@@ -4,13 +4,17 @@
 //
 // Execute `rustlings hint primitive_types4` or use the `hint` watch subcommand
 // for a hint.
+// I AM NOT DONE
 
+// I AM NOT DONE
 
 #[test]
 fn slice_out_of_array() {
     let a = [1, 2, 3, 4, 5];
+// I AM NOT DONE
 
     let nice_slice = &a[1..4];
+// I AM NOT DONE
 
     assert_eq!([2, 3, 4], nice_slice)
 }

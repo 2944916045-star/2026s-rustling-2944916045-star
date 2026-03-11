@@ -6,7 +6,9 @@
 // Make me pass the test!
 //
 // Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
+// I AM NOT DONE
 
+// I AM NOT DONE
 
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     for element in v.iter_mut() {
@@ -14,10 +16,12 @@ fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
         // multiplied by 2.
         *element *= 2;
     }
+// I AM NOT DONE
 
     // At this point, `v` should be equal to [4, 8, 12, 16, 20].
     v
 }
+// I AM NOT DONE
 
 fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     v.iter().map(|element| {
@@ -26,23 +30,28 @@ fn vec_map(v: &Vec<i32>) -> Vec<i32> {
         element * 2
     }).collect()
 }
+// I AM NOT DONE
 
 #[cfg(test)]
 mod tests {
     use super::*;
+// I AM NOT DONE
 
     #[test]
     fn test_vec_loop() {
         let v: Vec<i32> = (1..).filter(|x| x % 2 == 0).take(5).collect();
         let ans = vec_loop(v.clone());
+// I AM NOT DONE
 
         assert_eq!(ans, v.iter().map(|x| x * 2).collect::<Vec<i32>>());
     }
+// I AM NOT DONE
 
     #[test]
     fn test_vec_map() {
         let v: Vec<i32> = (1..).filter(|x| x % 2 == 0).take(5).collect();
         let ans = vec_map(&v);
+// I AM NOT DONE
 
         assert_eq!(ans, v.iter().map(|x| x * 2).collect::<Vec<i32>>());
     }
